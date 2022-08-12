@@ -1,2 +1,210 @@
-<!DOCTYPE html><html lang=zh-CN><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>index</title><script>var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
-            document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')</script><link rel=stylesheet href=/static/index.2772579d.css></head><body><noscript><strong>Please enable JavaScript to continue.</strong></noscript><div id=app></div><script src=/static/js/chunk-vendors.11744486.js></script><script src=/static/js/index.2689c3f7.js></script></body></html>
+<!doctype html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/demo_styles.css">
+		<link rel="stylesheet" href="css/demo1.css">
+		<link rel="stylesheet" type="text/css" href="css/default.css">
+	</head>
+	<body class="dm-demo1">
+		<div class="htmleaf-container">
+			<h2 style="color: #fff;">个人简历</h2>
+			<h3>Personal resumn</h3>
+			<!-- Demo Navigation -->
+			<nav class="nav clearfix">
+				<button class="nav-el" id="el-topleft" data-id="ov-topleft"><span class="icon-heart">
+						<p>个人信息</p>
+					</span></button>
+				<button class="nav-el" id="el-topright" data-id="ov-topright"><span class="icon-pen">
+						<p>相关技能</p>
+					</span></button>
+				<button class="nav-el" id="el-btmleft" data-id="ov-btmleft"><span class="icon-tag">
+						<p>项目经历</p>
+					</span></button>
+				<button class="nav-el" id="el-btmright" data-id="ov-btmright"><span class="icon-search">
+						<p>其他信息</p>
+					</span></button>
+			</nav>
+			<!-- Overlay (hidden by default)-->
+			<section class="overlay" id="ov-topleft">
+				<div class="wrap">
+					<img style="width: 70px;height: 70px;border-radius: 50%"
+						src="img/ava.png"/>
+						<div>林凯琳</div>
+					<div class="minbox">
+						<img style="width:22px;height: 22px;vertical-align:text-bottom;margin: 0 5px"
+							src="img/school.png"/>毕业院校：广东技术师范大学
+					</div>
+					<div class="minbox">
+						<img style="width:25px;height: 25px;vertical-align:text-bottom;margin: 0 5px"
+							src="img/phone.png"/>联系方式：13925614094
+					</div>
+					<div class="minbox">
+						<img style="width:25px;height: 25px;vertical-align:text-bottom;margin:  0 5px"
+							src="img/birth.png"/>出生年月：1999/10
+					</div>
+					<div class="minbox">
+						<img style="width:25px;height: 25px;vertical-align:text-bottom;margin: 0 5px"
+							src="img/grate.png"/>学历：本科
+					</div>
+					<div class="minbox">
+						<img style="width:20px;height: 20px;vertical-align:text-bottom;margin: 0 5px"
+							src="img/work.png"/>求职意向:web 前端开发
+					</div>
+
+				</div>
+
+				<button class="close"><span class="mfg-cancel"></span></button>
+			</section>
+
+			<section class="overlay" id="ov-topright">
+				<div class="wrap">
+					<img src="img/ability.png"
+						style="width: 25px;height: 25px;vertical-align: text-bottom;margin-right: 5px;"/>相关技能：
+					<div class="minbox">1、能够使用HTML和CSS编写静态页面</div>
+					<div class="minbox">2、了解并使用vue全家桶（vue-cli、vue-router、vuex、axios、搭配ui框架）</div>
+					<div class="minbox">3、了解并使用uniapp，微信小程序开发</div>
+					<div class="minbox">4、了解使用webpack打包工具和git版本管理工具</div>
+					<div class="minbox">5、能够使用工具画原型图</div>
+					<div class="minbox">6、能够实现前后端接口联调</div>
+					<div class="minbox">7、了解浏览器渲染机制和缓存原理</div>
+				</div>
+
+				<button class="close"><span class="mfg-cancel"></span></button>
+			</section>
+
+			<section class="overlay" id="ov-btmleft">
+				<div class="wrap" style="text-align: left;">
+					<div style="text-align: center;">
+					<div >
+						<img src="img/calen.png"
+							style="width: 20px;height: 20px;vertical-align: text-bottom;margin-right: 5px;">
+							2020.01-2021.08
+						</img>
+					</div>
+					<div>
+						<img src="img/school.png"
+							style="width: 22px;height: 22px;vertical-align: text-bottom;margin-right: 5px;">
+							深圳市有华软件开发有限公司
+						</img>
+					</div>
+					<div>
+						<img src="img/role.png"
+							style="width: 20px;height: 20px;vertical-align: text-bottom;margin-right: 5px;">开发人员
+						</img>
+					</div>
+					</div>
+					<div style="border:1px dotted #000;margin: 14px 0 ;"></div>
+					<div>
+						<div style="text-align: center">
+							<img src="img/first.png"
+								style="width: 20px;height: 20px;vertical-align: text-bottom;margin-right: 5px;">
+								熟人地图小程序
+							</img>
+						</div>
+						<div>
+							<div>项目介绍：主要是关于地图人脉资源的社交小程序，用户可通过推荐人绑定形成多级的人脉关系在地图上区别标记，通过关系链的名片展示来获取交换资源信息。</div>
+							<div>主要任务：</div>
+							<ul>
+								<li>名片的创建存储展示</li>
+								<li>多级人脉关系绑定展示</li>
+								<li>地图分级人脉展示</li>
+								<li>个人动态、个人关注、个人粉丝</li>
+							</ul>
+							<div>主要技术：</div>
+							<div>uniapp+node+MongoDB</div>
+						</div>
+						<div style="border:1px dotted #000;margin: 14px 0 ;"></div>
+						<div style="text-align: center">
+							<img src="img/second.png"
+								style="width: 20px;height: 20px;vertical-align: text-bottom;margin-right: 5px;">
+								九龄商城管理平台
+							</img>
+						</div>
+						<div>
+							<div>项目介绍：一个商城平台的管理系统；包括总平台端、供应商端、商品端形成管理</div>
+							<div>主要任务：</div>
+							<ul>
+								<li>使用echart数据可视化工具实现平台数据的概览</li>
+								<li>实现平台的积分设置、人员角色设置、优惠券设置、消息管理前端页面</li>
+							</ul>
+							<div>主要技术：</div>
+							<div>vue+element-UI</div>
+						</div>
+						<div style="border:1px dotted #000;margin: 14px 0 ;"></div>
+						<div style="text-align: center">
+							<img src="img/third.png"
+								style="width: 20px;height: 20px;vertical-align: text-bottom;margin-right: 5px;">
+								真好拼城APP
+							</img>
+						</div>
+						<div>
+							<div>项目介绍：主要是关于地图人脉资源的社交小程序，用户可通过推荐人绑定形成多级的人脉关系在地图上区别标记，通过关系链的名片展示来获取交换资源信息。</div>
+							<div>主要任务：</div>
+							<ul>
+								<li>名片的创建存储展示</li>
+								<li>多级人脉关系绑定展示</li>
+								<li>地图分级人脉展示</li>
+								<li>个人动态、个人关注、个人粉丝</li>
+							</ul>
+							<div>主要技术：</div>
+							<div>uniapp+node+MongoDB</div>
+						</div>
+						<div style="border:1px dotted #000;margin: 14px 0 ;"></div>
+						<div style="text-align: center">
+							<img src="img/fouth.png"
+								style="width: 20px;height: 20px;vertical-align: text-bottom;margin-right: 5px;">
+								"金手约" 盲人按摩辅助系统
+							</img>
+						</div>
+						<div>
+							<div>项目介绍：主要是关于针对特殊人群开发的按摩店铺工人排班辅助系统APP</div>
+							<div>主要任务：</div>
+							<ul>
+								<li>参与前期原型图的绘制</li>
+								<li>参与后期的模块功能测试</li>
+							</ul>
+							<div>主要技术：</div>
+							<div>uniapp+node+MongoDB</div>
+						</div>
+					</div>
+					
+				</div>
+
+				<button class="close"><span class="mfg-cancel"></span></button>
+			</section>
+
+			<section class="overlay" id="ov-btmright">
+				<div class="wrap" style="text-align: left;">
+					<img src="img/school.png"
+						style="width: 20px;height: 20px;vertical-align: text-bottom;margin-right: 5px;">校园经历：
+					</img>
+					<div class="minbox">1、院级团学部门部长，策划举办过多项活动</div>
+					<div class="minbox">2、KAB俱乐部副部长，组织开展过部门技术分享会</div>
+					<div class="minbox">3、志愿活动爱好者，参与过多项志愿活动</div>
+					<div class="minbox">证书：1+X web前端开发证书</div>
+					<div style="margin: 20px 0;">
+						<img src="img/self.png"
+							style="width: 20px;height: 20px;vertical-align: text-bottom;margin-right: 5px;">自我评价：
+						</img>
+						<div style="text-indent:25px ;margin: 10px 0;">本人性格开朗、非常有耐心，拥有团队责任感，有着良好的自学能力,能够自学一些新型的技术以配合项目的开发，
+							个人认为学习是永无止境的，遇到问题不可怕，要学会全方位多渠道的去寻找解决的办法，不断地去提升自己，能够接受加班。</div>
+					</div>
+					
+					
+				</div>
+
+				<button class="close"><span class="mfg-cancel"></span></button>
+			</section>
+
+		</div>
+
+		<script src="js/vendor/jquery-1.10.2.min.js"></script>
+		<!-- <script src="js/plugins.js"></script> -->
+		<script src="js/demo.js"></script>
+	</body>
+</html>
